@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api
+  namespace: alpha
+data:
+  NODE_ENV: "production"
+  TZ: "Asia/Bangkok"
+  PORT: "3000"
